@@ -5,7 +5,8 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-.button {
+
+.button,  .BookCall {
 	border: 0;
 	line-height: 2.5;
 	padding: 0 20px;
@@ -25,20 +26,23 @@
 	  inset 2px 2px 3px rgba(255, 255, 255, 0.6),
 	  inset -2px -2px 3px rgba(0, 0, 0, 0.6);
   }
-  
-  .button :hover {
+
+  .button,  .BookCall :hover {
 	background-color: black !important;
   }
-  
-  .button:active {
+
+  .button,  .BookCall:active {
 	box-shadow:
 	  inset -2px -2px 3px rgba(255, 255, 255, 0.6),
 	  inset 2px 2px 3px rgba(0, 0, 0, 0.6);
   }
-  
+
+
+
+
+
 
 /* Change the color of the logo on hover */
 .logo img:hover {
   filter: grayscale(0%) invert(100%);
 }
-
