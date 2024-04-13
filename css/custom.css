@@ -5,4 +5,7 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-
+/* Change the color of the logo on hover */
+.logo img:hover {
+  filter: grayscale(0%) invert(100%);
+}
